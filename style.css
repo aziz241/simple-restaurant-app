@@ -1,0 +1,151 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: antiquewhite;
+}
+.main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.menu {
+  display: inline-block;
+  margin-top: 2rem;
+  width: 50vw;
+}
+
+.siparis__grup {
+  background-color: rgb(255, 123, 123);
+  height: 100%;
+  display: none;
+}
+.siparis--heading {
+  text-align: center;
+  font-size: 1.6rem;
+  width: 100%;
+  display: block;
+  background-color: #fff;
+  color: #000;
+}
+.siparis_alt {
+  background-color: rgb(106 106 106);
+  width: 50vw;
+  margin: 1rem 0;
+  padding: 1rem 0;
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  align-items: baseline;
+}
+.siparisicerik {
+  display: inline-block;
+  margin: 0 1rem;
+}
+.siparisgoruntule {
+  display: inline-block;
+  margin: 0 1rem;
+}
+.siparislistesi {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  display: none;
+}
+.siparislistesi__img img {
+  height: 5rem;
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+.siparislistesi--heading {
+  text-align: center;
+  display: block;
+  width: 100%;
+  font-size: 1.6rem;
+}
+.menu__category {
+  display: flex;
+  justify-content: space-evenly;
+}
+.menu--category {
+  padding: 1rem;
+  border-radius: 15px;
+  background-color: rgb(255, 123, 123);
+  color: #252525;
+}
+.menu--category:hover {
+  background-color: red;
+  color: #fff;
+}
+.urunler {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+}
+.urunler__urun {
+  padding: 1rem;
+  margin: 1rem;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: flex-end;
+  align-items: stretch;
+  flex-direction: column;
+}
+.urunler__urun--img {
+  object-fit: cover;
+  text-align: center;
+}
+.urunler__urun--img img {
+  height: 10rem;
+  width: auto;
+}
+.urunler__urun--heading {
+  padding: 5px;
+
+  text-transform: uppercase;
+  text-align: center;
+  background-color: rgb(255, 123, 123);
+}
+.siparisicerik2 {
+  width: 100%;
+  text-align: center;
+}
+.urunler__urun2 {
+  width: 15%;
+  display: inline-block;
+  margin: 5px;
+}
+.siparisonaylabuton {
+  width: 100%;
+  background-color: #252525;
+  color: #fff;
+  text-decoration: none;
+}
+.active-display {
+  display: inline-block;
+}
+.disable-display {
+  display: none;
+}
